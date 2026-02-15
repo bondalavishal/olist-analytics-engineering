@@ -60,8 +60,11 @@ CREATE SCHEMA analytics_mart;
 ## 3️⃣ Python Ingestion Setup
 
 cd ingestion
+
 python -m venv venv
+
 source venv/bin/activate
+
 pip install psycopg2-binary pandas
 
 Run incremental loader:
