@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# dbt
+target/
+dbt_packages/
+
+# Airflow logs
+logs/
+airflow_home/logs/
+
+# Environment files
+.env
