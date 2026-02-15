@@ -81,11 +81,17 @@ The loader:
 ## 4️⃣ dbt Setup
 
 cd dbt/olist_project
+
 source ~/.venv/bin/activate  (your dbt venv)
+
 dbt run
+
 dbt test
+
 dbt docs generate
+
 dbt docs serve
+
 
 Models include:
 - Staging layer
