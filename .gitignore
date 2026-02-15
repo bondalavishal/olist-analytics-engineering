@@ -19,3 +19,5 @@ airflow_home/logs/
 
 # Environment files
 .env
+
+ingestion/raw_files/
